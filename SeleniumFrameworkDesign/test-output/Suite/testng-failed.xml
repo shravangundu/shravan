@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test parallel="tests" name="Error Handling Test(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="ErrorHandling"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="shravang.Tests.ErrorHandlingTest">
+        <methods>
+          <include name="LoginErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- shravang.Tests.ErrorHandlingTest -->
+    </classes>
+  </test> <!-- Error Handling Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
